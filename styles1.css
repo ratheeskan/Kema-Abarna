@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: MyFont2;
-    src: url(Rastefani.ttf);
+    src: url(Sunday.otf);
 }
 
 @font-face {
@@ -268,10 +268,13 @@ p {
   }
 
   .logo-image {
-    width: 100px;
+    width: 70px;
     height: auto;
-    float: right; /* Adjust the image to the right */
+    position: absolute;
+    bottom: 1;
+    left: 0;
 }
+
 
 /* Media query for small devices */
 @media screen and (max-width: 300px) {
